@@ -12,7 +12,7 @@ A modern video tube website coded in Typescript with Next.js framework. Tailwind
 - Scrape content from big sites
 - MongoDB Database
 - Report / Contact Modal
-
+   
 ### Todos
 
 - Improve SEO for ranking
