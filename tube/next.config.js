@@ -10,4 +10,5 @@ module.exports = withBundleAnalyzer(
       domains: ['i.ytimg.com'],
     },
   })
+  
 );
