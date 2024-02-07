@@ -15,6 +15,8 @@ export type Video = {
   createdAt: Date;
 };
 
+
+
 export type VideoMeta = {
   alternativeTitle: string;
   plattform: string;
