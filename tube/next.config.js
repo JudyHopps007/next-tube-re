@@ -9,6 +9,7 @@ module.exports = withBundleAnalyzer(
     images: {
       domains: ['i.ytimg.com'],
     },
+    
   })
-  
+
 );
