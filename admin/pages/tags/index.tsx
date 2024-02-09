@@ -20,7 +20,6 @@ type Props = {
   page: number;
   tags: Tag[];
 };
-
 const PanelTagsPage: NextPage<Props> = ({ tagsCount, page, filters, tags }) => {
   return (
     <>
@@ -46,7 +45,6 @@ const PanelTagsPage: NextPage<Props> = ({ tagsCount, page, filters, tags }) => {
     </>
   );
 };
-
 export const getServerSideProps: GetServerSideProps = async (context) => {
   const { page = 1, search = '', role = null, state = null } = context.query;
   const session = await getSession(context);
